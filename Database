@@ -1,0 +1,23 @@
+create database jenkins;
+use jenkins;
+create table Student(
+	rollno int,
+    firstname varchar(100),
+    lastname varchar(100),
+    city varchar(100)
+    );
+    
+insert into Student values(01,'Monish','Keshavan','Bangalore');
+insert into Student values(02,'Vignesh','Keshavan','Chennai');
+insert into Student values(03,'Dhanalakshmi','Jayaraman','Pune');
+select * from Student;
+
+
+create table Marks(
+	Science int,
+    Math int,
+    Physics int);
+    
+insert into Marks values(33,44,55);
+insert into Marks values(45,44,32);
+insert into Marks values(55,66,77);
